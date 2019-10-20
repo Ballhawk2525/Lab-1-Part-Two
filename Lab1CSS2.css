@@ -1,0 +1,58 @@
+@media screen and (max-width: 526px) {
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal 800;
+}
+body {
+    background: #f9fafc;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    color: #69696a;
+}
+
+button {
+    color: white;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 12px;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+}
+
+button:hover {
+    background-color:  #69696a;
+}
+
+.scroll {
+    position: absolute;
+    left: 40%;
+    margin-top: 80px;
+    margin-left: -200px;
+}
+
+.vl {
+    border-left: 3px solid #69696a;
+    height: 154px;
+}
+}

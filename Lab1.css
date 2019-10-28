@@ -65,7 +65,9 @@ button:hover {
 
 .vl {
     border-left: 3px solid #69696a;
+    padding-left: 10px;
     height: 109px;
+    /* word-wrap: break-word; */
 }
 
 h1 {
@@ -78,17 +80,23 @@ p {
 }
 
 .dots {
-    transform: translate(650px,-40px);
-    margin-bottom: 0px;;
+    transform: translate(550px,-50px);
+    margin-bottom: 0px;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 #pinkdot {
     background: rgba(247, 136, 167, 0.6);
-    height: 350px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     display: inline-block;
-    transform: translate(240px,-120px);
+    transform: translate(120px, -140px);
+    position: absolute;
 }
 
 #purpledot {
@@ -97,7 +105,8 @@ p {
     width: 160px;
     border-radius: 50%;
     display: inline-block;
-    transform: translate(170px,-300px);
+    transform: translate(280px,-200px);
+    position: absolute;
 }
 
 #tandot {
@@ -106,6 +115,7 @@ p {
     width: 220px;
     border-radius: 50%;
     display: inline-block;
-    transform: translate(-20px, -110px);
+    transform: translate(240px, -80px);
+    position: absolute;
 }
 }
